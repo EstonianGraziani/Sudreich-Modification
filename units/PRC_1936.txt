@@ -1,0 +1,200 @@
+﻿division_template = {
+	name = "People's Liberation Infantry"	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+}
+division_template = {
+	name = "Horse Company Of The Revolution"  
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "The Steel Mao"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+   division = { 
+		name ="First Guard Of The Chairman"
+		location = 7418
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = { 
+		name ="First Guard Of The Chairman"
+		location = 7418
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = { 
+		name ="First Guard Of The Chairman"
+		location = 7418
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = { 
+		name ="First Guard Of The Chairman"
+		location = 7418
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = { 
+		name ="First Guard Of The Chairman"
+		location = 7418
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = { 
+		name ="First Guard Of The Chairman"
+		location = 7418
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	
+	division = {
+		name = "Sinkiang Revolutionary Battalion"
+		location = 4709
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "Sinkiang Revolutionary Battalion"
+		location = 4709
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "Sinkiang Revolutionary Battalion"
+		location = 4709
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "Sinkiang Revolutionary Battalion"
+		location = 4709
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "1.Steel Maos Of The Southeast"
+		location = 3992
+		division_template = "The Steel Mao"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "2.Steel Maos Of The Southeast"
+		location = 3992
+		division_template = "The Steel Mao"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "3.Steel Maos Of The Southeast"
+		location = 3992
+		division_template = "The Steel Mao"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = { 
+		name = "Maoist Conquest Battalion"
+		location = 10903
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = { 
+		name = "Maoist Conquest Battalion"
+		location = 10787
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = { 
+		name = "Maoist Conquest Battalion"
+		location = 4403
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = { 
+		name = "Maoist Conquest Battalion"
+		location = 4313
+		division_template = "People's Liberation Infantry"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+
+	##### No Naval OOB -- add later #####
+}

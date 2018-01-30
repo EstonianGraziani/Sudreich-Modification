@@ -1,0 +1,229 @@
+﻿division_template = {
+	name = "Infanterie"	
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+	}
+}
+division_template = {
+	name = "Kaiser-Kavallerie"  
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kaiser-Panzer"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Gebirgs-Brigade"		# Gebirgsbrigade
+	#Note: precursor to Gebirgs-Divisions
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+}
+
+units = {
+
+   division = { 
+		name ="Qindang Protectionary Force"
+		location = 7105
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+
+	}
+   division = { 
+		name ="Danzig Infanterie"
+		location = 362
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+   division = { 
+		name ="Berlin Infanterie"
+		location = 6521
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+   division = { 
+		name ="Berlin Panzer"
+		location = 6521
+		division_template = "Kaiser-Panzer"
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+
+	  division = { 
+		name ="WestPreussen Infanterie"
+		location = 9306 
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	
+	  division = { 
+		name ="Elsass-Lothrigen Infanterie"
+		location = 549 
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	  division = { 
+		name ="Elsass-Lothrigen Infanterie"
+		location = 678
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	  division = { 
+		name ="Elsass-Lothrigen Infanterie"
+		location = 1346
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	  division = { 
+		name ="Elsass-Lothrigen Infanterie"
+		location = 3629
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	  division = { 
+		name ="Elsass-Lothrigen Infanterie"
+		location = 6529 
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	  division = { 
+		name ="Nord-infanterie"
+		location = 6325 
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	  division = { 
+		name ="Nord-infanterie"
+		location = 3231
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	  division = { 
+		name ="Nord-infanterie"
+		location = 321
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	  division = { 
+		name ="2.Danzig Infanterie"
+		location = 11265
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	  division = { 
+		name ="Anti-Rotarmee"
+		location = 9545
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	
+	  division = { 
+		name ="2.Anti-Rotarmee"
+		location = 11445
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	  division = { 
+		name ="3.Anti-Rotarmee"
+		location = 9497
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+	  division = { 
+		name ="3.Anti-Rotarmee"
+		location = 6488
+		division_template = "Infanterie"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "GER" } }
+		start_experience_factor = 0.45
+		start_equipment_factor = 1
+
+	}
+}

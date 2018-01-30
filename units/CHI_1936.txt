@@ -1,0 +1,212 @@
+﻿division_template = {
+	name = "The Chinese Royal Guard"				# Represents: German-trained divisions (better equipment than rest),
+									# 	as well as two-division infantry corps (generally poorly-equipped militias),
+	regiments = {					#	and local militia groups.
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	priority = 0 # garrison
+}
+division_template = {
+	name = "Imperial Battalion"			# Represents three-division infantry corps (generally poorly-equipped militias)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "The Royal Tank Company"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+}
+
+units = {
+
+   division = { 
+		name ="1.Xibei San Ma Infantry"
+		location = 2099
+		division_template = "Imperial Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+   division = { 
+		name ="2.Xibei San Ma Infantry"
+		location = 10724
+		division_template = "Imperial Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+   division = { 
+		name ="3.Xibei San Ma Infantry"
+		location = 10817
+		division_template = "Imperial Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+   division = { 
+		name ="4.Xibei San Ma Infantry"
+		location = 12890
+		division_template = "Imperial Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+   division = { 
+		name ="5.Xibei San Ma Infantry"
+		location = 7803
+		division_template = "Imperial Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "Nanjing Protection Battalion"
+		location = 11913
+		division_template = "The Royal Tank Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "1.Southeast Tank Battalion"
+		location = 9982
+		division_template = "The Royal Tank Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "2.Southeast Tank Battalion"
+		location = 1036
+		division_template = "The Royal Tank Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "3.Southeast Tank Battalion"
+		location = 7086
+		division_template = "The Royal Tank Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "4.Southeast Tank Battalion"
+		location = 7086
+		division_template = "The Royal Tank Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "1.Westren Advance Battalion"
+		location = 11931
+		division_template = "Imperial Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "2.Westren Advance Battalion"
+		location = 12767
+		division_template = "Imperial Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "3.Westren Advance Battalion"
+		location = 4208
+		division_template = "Imperial Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "4.Westren Advance Battalion"
+		location = 8072	
+		division_template = "Imperial Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "5.Westren Advance Battalion"
+		location = 2091
+		division_template = "Imperial Battalion"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "The Royal Guard"
+		location = 11913
+		division_template = "The Chinese Royal Guard"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "The Royal Guard"
+		location = 11913
+		division_template = "The Chinese Royal Guard"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "The Royal Guard"
+		location = 11913
+		division_template = "The Chinese Royal Guard"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "The Royal Guard"
+		location = 11913
+		division_template = "The Chinese Royal Guard"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "PRC" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+
+	}
+
+}
+
